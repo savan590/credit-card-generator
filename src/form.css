@@ -1,0 +1,109 @@
+.card-form {
+    margin-top: 24vh;
+    font-size: 19px;
+    font-weight: 450;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-left: 4vw;
+
+}
+
+.input-name-number {
+    height: 4.8vh;
+    width: 27vw;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.25);
+    /* text-transform: uppercase; */
+}
+
+.input-name-number::placeholder {
+    font-size: 18px;
+    transform: translateX(1vw);
+    color:
+        rgba(187, 185, 188, 1);
+}
+
+.month-year {
+    display: flex;
+    gap: 1vw;
+}
+
+.date-cvc {
+    display: flex;
+    gap: 2vw;
+}
+
+#label {
+    line-height: 5;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.155em;
+    text-align: left;
+
+}
+
+#error{
+    /* display: none; */
+    color: red;
+}
+
+.button {
+    height: 5.5vh;
+    width: 27.5vw;
+    background-color: rgba(34, 9, 48, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.month {
+    height: 4.8vh;
+    width: 6vw;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.25);
+
+}
+
+.year {
+    height: 4.8vh;
+    width: 6vw;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+.month::placeholder {
+    font-size: 18px;
+    transform: translateX(1vw);
+    color:
+        rgba(187, 185, 188, 1);
+
+}
+
+.year::placeholder {
+    font-size: 18px;
+    transform: translateX(1vw);
+    color:
+        rgba(187, 185, 188, 1);
+
+}
+
+.cvc {
+    height: 4.8vh;
+    width: 11vw;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+.cvc::placeholder {
+    font-size: 18px;
+    transform: translateX(1vw);
+    color:
+        rgba(187, 185, 188, 1);
+
+}
