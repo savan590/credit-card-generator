@@ -21,7 +21,7 @@ function Form({ onSubmit }) {
         setCardName(result);
     }
     let notify = () => {
-        if (hasError === true) {
+        if (cardName && number && month && year && cvc) {
             toast.success('Success', {
                 position: toast.POSITION.TOP_CENTER
             });
